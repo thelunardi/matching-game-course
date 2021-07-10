@@ -1,0 +1,18 @@
+.game-info {
+    height: 20px;
+    width: 280px;
+    top:20px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.board-card {
+    display: grid;
+    width: 320px;
+    height: 608px;
+    top: 20px;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 180px 180px 180px;
+    gap: 5px;
+}
