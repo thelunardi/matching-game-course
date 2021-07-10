@@ -1,19 +1,12 @@
 import './style.css'
 
 import CardGame from '../../components/CardGame'
-import PlayerName from '../../components/PlayerGame'
 
-const BoardGame = (amountCards = 6) => {
+const BoardGame = (amountCards = 1) => {
     const $htmlCardGame = CardGame()
     const $htmlContent = $htmlCardGame.repeat(amountCards)
-    const $htmlPlayer1 = PlayerName('Player1')
-    const $htmlPlayer2 = PlayerName('Player2')
 
-    return `
-        <!--<header class="game-info">
-            ${$htmlPlayer1}
-            ${$htmlPlayer2}       
-        </header>-->
+    return `        
         <section class="board-game">       
             ${$htmlContent}            
         </section>
