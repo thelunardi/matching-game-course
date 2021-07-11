@@ -49,6 +49,7 @@ document.addEventListener('click', function(event) {
         const winnerArea = document.getElementById('winnerArea')
         const gameArea = document.getElementById('gameArea')
         document.body.style.backgroundColor = 'var(--color-old-silver)'
+        // document.body.style.backgroundColor = '#3A4042'
         document.body.style.height = '658px'
         winnerArea.style.display = 'flex'
         gameArea.style.display = 'none'

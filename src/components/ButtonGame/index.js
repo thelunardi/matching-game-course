@@ -3,7 +3,7 @@ import './style.css'
 const ButtonGame = (buttonText) => {
     return `
         <section id="winnerGame" class="button-game">
-            <button>${buttonText}</button>
+            <button class="restart-button">${buttonText}</button>
         </section>       
     `
 }
