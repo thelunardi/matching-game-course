@@ -1,0 +1,37 @@
+.button-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    color: var(--color-floral-white);
+    background-color: var(--color-fiery-rose);
+    border: 2px solid var(--color-pomb-and-power);
+}
+
+.button-game button {
+    font-family: 'Press Start 2P', cursive;
+    color: var(--color-floral-white);
+    background-color: var(--color-fiery-rose);
+    padding: 11px 57px;
+    font-size: 1.8rem;
+    border: 2px solid var(--color-pomb-and-power);
+    box-shadow: none;
+}
+
+.button-game::before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid var(--color-floral-white);
+    border-top: 2px solid var(--color-floral-white);
+    width: 240px;
+    height: 40px;
+}
+
+.button-game::after {
+    content: '';
+    position: absolute;
+    border-left: 2px solid var(--color-floral-white);
+    border-right: 2px solid var(--color-floral-white);
+    width: 240px;
+    height: 40px;
+}

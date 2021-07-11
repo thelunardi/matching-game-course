@@ -5,7 +5,7 @@ const CardGame = () => {
         <article id="cardDown" class="card-game card-up">
             <img src="images/alura-pixel.png" alt="alura-pixel">            
         </article>
-        <article id="cardUp" class="card-game card-down">
+        <article id="cardUpCss" class="card-game card-down">
             <img src="images/logo-css.png" alt="logo-css">            
         </article>
         <article id="cardUp" class="card-game card-down">

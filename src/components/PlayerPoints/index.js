@@ -1,8 +1,9 @@
 import './style.css'
 
 const PlayerPoints = () => {
-    return `
+    return `               
         <section class="board-points">
+            <img class="icon-points" src="images/IconArrowDown.png" alt="icon-arrow-down">            
             <div class="player-points"></div>
             <div class="player-points"></div>
             <div class="player-points"></div>
