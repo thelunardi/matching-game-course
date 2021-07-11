@@ -5,6 +5,9 @@
     background-color: var(--color-alura);
     height: 160px;
     width: 130px;
+    user-select: none;
+    border-left: 4px solid var(--color-floral-white);
+    border-right: 4px solid var(--color-floral-white);
 }
 
 .card-game::before {
@@ -12,15 +15,6 @@
     position: absolute;
     border-top: 4px solid var(--color-floral-white);
     border-bottom: 4px solid var(--color-floral-white);
-    width: 130px;
-    height: 160px;
-}
-
-.card-game::after {
-    content: '';
-    position: absolute;
-    border-left: 4px solid var(--color-floral-white);
-    border-right: 4px solid var(--color-floral-white);
     width: 130px;
     height: 160px;
 }

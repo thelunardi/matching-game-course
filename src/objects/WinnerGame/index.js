@@ -8,7 +8,7 @@ const $htmlButtonGame = ButtonGame('restart')
 
 const WinnerGame = () => {
     return `
-        <section class="winner-game">
+        <section id="winnerArea" class="winner-game">
             ${$htmlPlayerGame}
             <p class="text-winner">Winner!!!</p>
             <img src="images/IconAchievement.png" alt="winner-game">

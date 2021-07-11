@@ -2,7 +2,10 @@ import './style.css'
 
 const OwnerGame = () => {
     return `
-        <p class="owner-game">by thelunardi</p>
+        <section id="ownerGame">
+            <p class="owner-game">by thelunardi</p> 
+        </section>
+       
     `
 }
 

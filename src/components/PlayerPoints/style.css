@@ -1,8 +1,18 @@
 .board-points {
     display: flex;
-    border: 2px solid #F25A70;
+    border-left: 2px solid #F25A70;
+    border-right: 2px solid #F25A70;
     justify-content: center;
     align-items: center;
+}
+
+.board-points::before {
+    content: '';
+    position: absolute;
+    border-top: 2px solid #F25A70;
+    border-bottom: 2px solid #F25A70;
+    height: 16px;
+    width: 48px;
 }
 
 .icon-points {

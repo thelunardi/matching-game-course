@@ -13,7 +13,7 @@ const CardGame = () => {
         </article>
         <article id="cardUp" class="card-game card-down">
             <img src="images/logo-javascript.png" alt="logo-javascript">            
-        </article>                         
+        </article>_                     
     `
 }
 
