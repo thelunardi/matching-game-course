@@ -19,27 +19,27 @@ $root.insertAdjacentHTML("beforeend", `
     ${$htmlWinnerGame}
 `)
 
-const cardDown = document.getElementById('0cardDown')
-document.addEventListener('click', function(event) {
-    const isClickInside = cardDown.contains(event.target)
-
-    if (isClickInside) {
-        const hiddenCard = document.getElementById('0cardUpCss')
-        hiddenCard.style.display = 'flex'
-        cardDown.style.display = 'none'
-    }
-})
-
-const cardUpCss = document.getElementById('0cardUpCss')
-document.addEventListener('click', function(event) {
-    const isClickInside = cardUpCss.contains(event.target)
-
-    if (isClickInside) {
-        const hiddenCard = document.getElementById('0cardDown')
-        hiddenCard.style.display = 'flex'
-        cardUpCss.style.display = 'none'
-    }
-})
+// const cardDown = document.getElementById('0cardDown')
+// document.addEventListener('click', function(event) {
+//     const isClickInside = cardDown.contains(event.target)
+//
+//     if (isClickInside) {
+//         const hiddenCard = document.getElementById('0cardUpCss')
+//         hiddenCard.style.display = 'flex'
+//         cardDown.style.display = 'none'
+//     }
+// })
+//
+// const cardUpCss = document.getElementById('0cardUpCss')
+// document.addEventListener('click', function(event) {
+//     const isClickInside = cardUpCss.contains(event.target)
+//
+//     if (isClickInside) {
+//         const hiddenCard = document.getElementById('0cardDown')
+//         hiddenCard.style.display = 'flex'
+//         cardUpCss.style.display = 'none'
+//     }
+// })
 
 const ownerGame = document.getElementById('ownerGame')
 document.addEventListener('click', function(event) {

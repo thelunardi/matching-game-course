@@ -3,11 +3,12 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-alura);
-    height: 160px;
-    width: 130px;
+    height: var(--height);
+    width: var(--width);
     user-select: none;
     border-left: 4px solid var(--color-floral-white);
     border-right: 4px solid var(--color-floral-white);
+    box-sizing: border-box;
 }
 
 .card-game::before {
@@ -17,14 +18,4 @@
     border-bottom: 4px solid var(--color-floral-white);
     width: 130px;
     height: 160px;
-}
-
-.card-down {
-    display: none;
-    background-color: var(--color-fiery-rose);
-}
-
-.card-up {
-    display: flex;
-    background-color: var(--color-alura);
 }
