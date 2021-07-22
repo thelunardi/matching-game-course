@@ -19,28 +19,6 @@ $root.insertAdjacentHTML("beforeend", `
     ${$htmlWinnerGame}
 `)
 
-// const cardDown = document.getElementById('0cardDown')
-// document.addEventListener('click', function(event) {
-//     const isClickInside = cardDown.contains(event.target)
-//
-//     if (isClickInside) {
-//         const hiddenCard = document.getElementById('0cardUpCss')
-//         hiddenCard.style.display = 'flex'
-//         cardDown.style.display = 'none'
-//     }
-// })
-//
-// const cardUpCss = document.getElementById('0cardUpCss')
-// document.addEventListener('click', function(event) {
-//     const isClickInside = cardUpCss.contains(event.target)
-//
-//     if (isClickInside) {
-//         const hiddenCard = document.getElementById('0cardDown')
-//         hiddenCard.style.display = 'flex'
-//         cardUpCss.style.display = 'none'
-//     }
-// })
-
 const ownerGame = document.getElementById('ownerGame')
 document.addEventListener('click', function(event) {
     const isClickInside = ownerGame.contains(event.target)
@@ -49,7 +27,6 @@ document.addEventListener('click', function(event) {
         const winnerArea = document.getElementById('winnerArea')
         const gameArea = document.getElementById('gameArea')
         document.body.style.backgroundColor = 'var(--color-old-silver)'
-        // document.body.style.backgroundColor = '#3A4042'
         document.body.style.height = '658px'
         winnerArea.style.display = 'flex'
         gameArea.style.display = 'none'

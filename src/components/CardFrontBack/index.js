@@ -14,4 +14,15 @@ const CardFrontBack = () => {
     `
 }
 
+const cardFrontBack = document.getElementsByClassName('card-front-back')
+document.addEventListener('click', function(event) {
+    if (cardFrontBack[0].contains(event.target)) {
+        if (cardFrontBack[0].classList.contains('-active')) {
+            cardFrontBack[0].classList.remove('-active')
+            return
+        }
+        cardFrontBack[0].classList.add('-active')
+    }
+})
+
 export default CardFrontBack
