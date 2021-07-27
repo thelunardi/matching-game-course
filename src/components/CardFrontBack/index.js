@@ -2,8 +2,14 @@ import './style.css'
 import CardGame from '../CardGame'
 
 const CardFrontBack = () => {
+    window.cardFrontBack = {}
+    window.cardFrontBack.handleClick = (event) => {
+        const $cardFrontBack = event.target.closest('.card-front-back')
+        $cardFrontBack.classList.toggle('-active')
+    }
+
     return `
-        <article class="card-front-back">
+        <article class="card-front-back" onclick="cardFrontBack.handleClick(event)">
             <div class="card -front">
                 ${CardGame('alura-pixel', 'Logo do JavaScript')}
             </div>
@@ -13,16 +19,5 @@ const CardFrontBack = () => {
         </article>
     `
 }
-
-const cardFrontBack = document.getElementsByClassName('card-front-back')
-document.addEventListener('click', function(event) {
-    if (cardFrontBack[0].contains(event.target)) {
-        if (cardFrontBack[0].classList.contains('-active')) {
-            cardFrontBack[0].classList.remove('-active')
-            return
-        }
-        cardFrontBack[0].classList.add('-active')
-    }
-})
 
 export default CardFrontBack
