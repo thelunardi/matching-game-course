@@ -1,8 +1,8 @@
 import './style.css'
 
-const VsPlayer = () => {
+const VsPlayer = (content) => {
     return `
-        <p class="player-vs">vs</p>
+        <span class="player-vs">${content}</span>
     `
 }
 
