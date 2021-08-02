@@ -1,9 +1,11 @@
 .board-points {
     display: flex;
+    flex-direction: row;
     border-left: 2px solid #F25A70;
     border-right: 2px solid #F25A70;
     justify-content: center;
     align-items: center;
+    align-content: space-between;
 }
 
 .board-points::before {
@@ -13,11 +15,6 @@
     border-bottom: 2px solid #F25A70;
     height: 16px;
     width: 48px;
-}
-
-.icon-points {
-    margin-top: -20px;
-    position: absolute;
 }
 
 .player-points {

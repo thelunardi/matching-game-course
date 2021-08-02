@@ -6,7 +6,7 @@ import VsPlayer from '../../components/VsPlayer'
 
 const $htmlPlayerGame1 = PlayerGame('Player1')
 const $htmlPlayerGame2 = PlayerGame('Player2')
-const $htmlVsPlayer = VsPlayer()
+const $htmlVsPlayer = VsPlayer('vs')
 const $htmlPlayerPoints1 = PlayerPoints()
 const $htmlPlayerPoints2 = PlayerPoints()
 
