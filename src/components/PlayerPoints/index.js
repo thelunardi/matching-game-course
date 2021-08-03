@@ -1,12 +1,8 @@
 import './style.css'
-import ArrowPlayer from '../ArrowPlayer'
-
-const $htmlArrowPlayer = ArrowPlayer()
 
 const PlayerPoints = () => {
     return `               
-        <section class="board-points">
-            ${$htmlArrowPlayer}             
+        <section class="board-points">                        
             <div class="player-points"></div>
             <div class="player-points"></div>
             <div class="player-points"></div>

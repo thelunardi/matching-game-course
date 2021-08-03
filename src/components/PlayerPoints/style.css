@@ -24,8 +24,8 @@
     border: 1px solid var(--color-floral-white);
 }
 
-.board-points div:nth-child(2) {
-    min-height: 14px;
-    min-width: 14px;
-    background-color: var(--color-mantis);
-}
+/*.board-points div:nth-child(2) {*/
+/*    min-height: 14px;*/
+/*    min-width: 14px;*/
+/*    background-color: var(--color-mantis);*/
+/*}*/

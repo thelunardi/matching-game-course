@@ -1,5 +1,16 @@
 .icon-points {
+    display: none;
     position: absolute;
     min-height: 48px;
+    min-width: 144px;
     margin-bottom: 3px;
+}
+
+.icon-points.-player-one {
+    display: inline;
+}
+
+.icon-points.-player-two {
+    display: inline;
+    margin-left: 180px;
 }
