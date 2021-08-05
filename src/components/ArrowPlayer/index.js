@@ -2,7 +2,7 @@ import './style.css'
 
 const ArrowPlayer = () => {
     return `
-        <div class="icon-points -player-two">
+        <div class="icon-points -player-one">
             <img src="images/IconArrowDown.png" alt="icon-arrow-down">
         </div>      
     `
