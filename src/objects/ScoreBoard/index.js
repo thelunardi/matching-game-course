@@ -5,8 +5,10 @@ import PlayerPoints from '../../components/PlayerPoints'
 import VsPlayer from '../../components/VsPlayer'
 import ArrowPlayer from '../../components/ArrowPlayer'
 import PlayerScore from '../../components/PlayerScore'
+import ArrowDown from '../../components/ArrowDown'
 
 // const $htmlArrowPlayer = ArrowPlayer()
+const $htmlArrowDown = ArrowDown()
 const $htmlPlayerGame1 = PlayerGame('Player1')
 const $htmlPlayerGame2 = PlayerGame('Player2')
 const $htmlVsPlayer = VsPlayer('vs')
@@ -17,8 +19,9 @@ const $htmlPlayerPoints2 = PlayerScore(3)
 // const $htmlPlayerPoints2 = PlayerPoints()
 
 const ScoreBoard = () => {
-    return `      
-        <header class="score-board">        
+    return /* html */ `      
+        <header class="score-board">     
+            ${$htmlArrowDown}   
             ${$htmlPlayerGame1}                     
             ${$htmlPlayerPoints1}
             ${$htmlVsPlayer}          
