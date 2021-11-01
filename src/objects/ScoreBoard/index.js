@@ -8,7 +8,7 @@ import PlayerScore from '../../components/PlayerScore'
 import ArrowDown from '../../components/ArrowDown'
 
 // const $htmlArrowPlayer = ArrowPlayer()
-const $htmlArrowDown = ArrowDown()
+const $htmlArrowDown = ArrowDown(2)
 const $htmlPlayerGame1 = PlayerGame('Player1')
 const $htmlPlayerGame2 = PlayerGame('Player2')
 const $htmlVsPlayer = VsPlayer('vs')
