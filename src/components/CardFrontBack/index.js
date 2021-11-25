@@ -1,7 +1,7 @@
 import './style.css'
 import CardGame from '../CardGame'
 
-const CardFrontBack = () => {
+const CardFrontBack = (icon, altIcon) => {
     window.cardFrontBack = {}
     window.cardFrontBack.handleClick = (event) => {
         const cardFrontBack = document.getElementsByClassName('-active')
@@ -31,13 +31,13 @@ const CardFrontBack = () => {
         }
     }
 
-    return `
+    return /* html */`
         <article class="card-front-back" onclick="cardFrontBack.handleClick(event)">
             <div class="card -front">
                 ${CardGame('alura-pixel', 'Logo do JavaScript')}
             </div>
             <div class="card -back">
-                ${CardGame('css', 'Logo do CSS')}
+                ${CardGame(icon, altIcon)}
             </div>           
         </article>
     `
